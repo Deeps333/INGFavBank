@@ -1,6 +1,9 @@
 pipeline {
    agent any
-	stages {
+	options {
+             skipDefaultCheckout true
+	}
+       stages {
       stage('Git Checkout') {
          steps {
            checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/Deeps333/INGFavBank.git']]])
