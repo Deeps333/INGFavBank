@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.hcl</groupId>
 	<artifactId>FavoriteBank</artifactId>
-	<version>${parsedVersion.nextmajorVersion}.0.${parsedVersion.IncrementalVersion}</version>
+	<version>1.0.1</version>
 	<name>FavoriteBank</name>
 	<description>Demo project for Spring Boot</description>
 
