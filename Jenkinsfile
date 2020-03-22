@@ -16,7 +16,7 @@ pipeline {
 	    }    }
         stage ('Update the Version')
 		{ steps {
-                sh '/usr/share/maven/bin/mvn build-helper:parse-version versions:set -DnewVersion=\'${parsedVersion.nextmajorVersion}.${parsedVersion.minorVersion}.${parsedVersion.IncrementalVersion}\' -DgenerateBackupPoms=false'
+                sh '/usr/share/maven/bin/mvn build-helper:parse-version versions:set -DnewVersion=\'${parsedVersion.nextMajorVersion}.${parsedVersion.minorVersion}.${parsedVersion.nextIncrementalVersion}\' -DgenerateBackupPoms=false'
 	        sh 'sudo git add .'
                 sh 'sudo git commit -m "Updated pom" pom.xml'
                 sh 'sudo git push https://Deeps333:Deepanshu333@github.com/Deeps333/INGFavBank.git HEAD:master'
