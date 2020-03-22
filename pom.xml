@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.hcl</groupId>
 	<artifactId>FavoriteBank</artifactId>
-	<version>3.0.8</version>
+	<version>4.0.9</version>
 	<name>FavoriteBank</name>
 	<description>Demo project for Spring Boot</description>
 
