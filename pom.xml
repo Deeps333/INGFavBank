@@ -99,7 +99,7 @@
 
   <repository>
     <id>nexus-releases</id>
-    <url>http://35.154.19.187:8081/nexus/content/repositories/releases/</url>
+    <url>http://13.127.91.122:8081/nexus/content/repositories/releases/</url>
   </repository>
 </distributionManagement>
 
