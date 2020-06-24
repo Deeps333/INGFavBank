@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.hcl</groupId>
 	<artifactId>FavoriteBank</artifactId>
-	<version>2.0.6</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>FavoriteBank</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -94,12 +94,12 @@
 <distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
-    <url>http://13.127.91.122:8081/nexus/content/repositories/snapshots</url>
+    <url>http://3.15.223.171:8081/nexus/content/repositories/snapshots</url>
    </snapshotRepository>
 
   <repository>
     <id>nexus-releases</id>
-    <url>http://13.127.91.122:8081/nexus/content/repositories/releases/</url>
+    <url>http://3.15.223.171:8081/nexus/content/repositories/releases/</url>
   </repository>
 </distributionManagement>
 
