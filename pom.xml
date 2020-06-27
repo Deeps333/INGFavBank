@@ -98,8 +98,8 @@
    </snapshotRepository>
 
   <repository>
-    <id>nexus-releases</id>
-    <url>http://18.188.33.121:8081/nexus/content/repositories/releases/</url>
+    <id>releases</id>
+    <url>http://18.188.33.121:8081/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
 
